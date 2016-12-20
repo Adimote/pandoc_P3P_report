@@ -126,8 +126,6 @@
 \newcommand*{\UNIVERSITY}[1]{\def\UNIVNAME{#1}}
 \newcommand*{\department}[1]{\def\deptname{#1}}
 \newcommand*{\DEPARTMENT}[1]{\def\DEPTNAME{#1}}
-\newcommand*{\group}[1]{\def\groupname{#1}}
-\newcommand*{\GROUP}[1]{\def\GROUPNAME{#1}}
 \newcommand*{\faculty}[1]{\def\facname{#1}}
 \newcommand*{\FACULTY}[1]{\def\FACNAME{#1}}
 \newcommand*{\subject}[1]{\def\subjectname{#1}}
@@ -148,18 +146,12 @@
 \DEPARTMENT  {\texorpdfstring{\href{http://www.ecs.soton.ac.uk}
                 {SCHOOL OF ELECTRONICS AND COMPUTER SCIENCE}}
                 {SCHOOL OF ELECTRONICS AND COMPUTER SCIENCE}}
-\group       {\texorpdfstring{\href{http://www.isis.ecs.soton.ac.uk}
-                {Image, Speech and Intelligent Systems Group}}
-                {Image, Speech and Intelligent Systems Group}}
-\GROUP       {\texorpdfstring{\href{http://www.isis.ecs.soton.ac.uk}
-                {IMAGE, SPEECH AND INTELLIGENT SYSTEMS GROUP}}
-                {IMAGE, SPEECH AND INTELLIGENT SYSTEMS GROUP}}
-\faculty     {\texorpdfstring{\href{http://www.engineering.soton.ac.uk}
-                {Faculty of Engineering, Science and Mathematics}}
-                {Faculty of Engineering, Science and Mathematics}}
-\FACULTY     {\texorpdfstring{\href{http://www.engineering.soton.ac.uk}
-                {FACULTY OF ENGINEERING, SCIENCE AND MATHEMATICS}}
-                {FACULTY OF ENGINEERING, SCIENCE AND MATHEMATICS}}
+\faculty     {\texorpdfstring{\href{http://www.fpse.soton.ac.uk}
+                {Faculty of Physical Sciences and Engineering}}
+                {Faculty of Physical Sciences and Engineering}}
+\FACULTY     {\texorpdfstring{\href{http://www.fpse.soton.ac.uk}
+                {FACULTY OF PHYSICAL SCIENCES AND ENGINEERING}}
+                {FACULTY OF PHYSICAL SCIENCES AND ENGINEERING}}
 \addresses   {}
 \subject     {}
 \keywords    {}

@@ -7,3 +7,6 @@ You will need the following linux commands: (Bash for windows untested but proba
 
     make
     pandoc
+
+# TODO
+- Import multiple chapters and appendices in one go

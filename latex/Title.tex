@@ -1,29 +1,28 @@
 %% ----------------------------------------------------------------
 %% Project.tex
-%% ---------------------------------------------------------------- 
+%% ----------------------------------------------------------------
 \documentclass{ecsproject}     % Use the Project Style
-\graphicspath{{../Figures/}}   % Location of your graphics files
+\graphicspath{{../figures/}}  % Location of your graphics files
 \usepackage{natbib}            % Use Natbib style for the refs.
 \hypersetup{colorlinks=true}   % Set to false for black/white printing
 \input{Definitions}            % Include your abbreviations
 %% ----------------------------------------------------------------
 \begin{document}
 \frontmatter
-\title      {An Investigation into \dots}
-\authors    {\texorpdfstring
-             {\href{mailto:S.R.Gunn@ecs.soton.ac.uk}{Steve R. Gunn}}
-             {Steve R. Gunn}
+\title      {$title$}
+\authors    {
+             $author$
             }
 \addresses  {\groupname\\\deptname\\\univname}
 \date       {\today}
 \subject    {}
 \keywords   {}
-\supervisor {Mr Beavis}
-\examiner   {Dr Butthead}
-\degree     {BEng Electronic Engineering}
+\supervisor {$supervisor$}
+\examiner   {$secondexaminer$}
+\degree     {$award$}
 \maketitle
 \begin{abstract}
-This work is all about \dots
+$body$
 \end{abstract}
 \tableofcontents
 \listoffigures
@@ -34,10 +33,10 @@ This work is all about \dots
 \dedicatory{To \dots}
 \mainmatter
 %% ----------------------------------------------------------------
-\include{Introduction}
+\include{Content}
 \include{Conclusions}
 \appendix
-\include{AppendixA}
+\include{Appendix}
 \backmatter
 \bibliographystyle{ecs}
 \bibliography{ECS}

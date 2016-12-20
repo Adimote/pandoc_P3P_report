@@ -7,9 +7,9 @@ school: School of Electronics and Computer Science
 # Personal Details:
 title: Title
 author: Author
-award: MEng Computer Science
+award: Award
 supervisor: Super-Visor
-second-examiner: Second Examiner
+secondexaminer: Second Examiner
 ...
 
 <!-- Abstract: -->
