@@ -1,7 +1,7 @@
 PANDOCOPTS = -f markdown+tex_math_dollars --biblio=../master.bib
 
-*.pdf:
-	cd latex; pandoc ../*.md -s -N $(PANDOCOPTS) --template=Project.tex -o ../output/report.pdf
+*.tex:
+	cd latex; pandoc ../*.md -s -N $(PANDOCOPTS) -o ../output/report.tex #--template=Project.tex -o ../output/report.pdf
 
 # Install the .cls file into the machine
 install:
